@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="ArcControl.Sample.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ArcControl.Sample.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:arcControl="using:ArcControl"
+    mc:Ignorable="d" Background="White">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <arcControl:Arc Radius="65" Fill="Red" PercentValue="12" Thickness="1" Margin="10" />
+        <arcControl:Arc Radius="65" Fill="Orange" PercentValue="44" Thickness="5" Margin="10" />
+        <arcControl:Arc Radius="65" Fill="Yellow" PercentValue="95" Thickness="10" Margin="10" />
+        <arcControl:Arc Radius="65" Fill="Green" PercentValue="100" Thickness="20" Margin="10" />
+    </StackPanel>
+</Page>
